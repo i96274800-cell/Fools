@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0;
+        }
+        body,html{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(31, 30, 30);
+        }
+        #upper{
+            height: 10%;
+            width: 100%;
+            background-color: black;
+            text-align: center;
+        }
+        #lower{
+            width: 100%;
+            height: 70%;
+            background-color:rgb(31, 30, 30);
+            display: grid;
+            grid-template-rows: 2fr 2fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+        }
+        .main{
+            background-color: rgb(31, 30, 30);
+        }
+        img{
+            width:60%;
+            height:75%;
+        }
+        h1{
+            color: white;
+            padding: 20px;
+        }
+        span{
+            color: antiquewhite;
+        }
+        button{
+            padding: 5px 30px;
+            cursor: pointer;
+            font-size: large;
+            border-radius: 4px;
+        }
+        #last{
+            text-align: center;
+            /* margin-top: 30px; */
+            width: 100%;
+            height: 10%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="upper">
+        <h1>This is not the main website <span>click on the button below</span></h1>
+    </div>
+    <div id="lower">
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsrb9b0uVtpar7aL-BbeEL6BnQMC5zZnjpdRiFWM_xjA&s=10">
+        </div>
+        <div class="main">
+            <img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwsMca8jdHXXc-FJisIps_TaInSKgVXS9oMGOkziQuQ&s">
+        </div>
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJf3xipl3jOcgS5q626kVXkDwk00uB43OmyV8twWjPhA&s=10">
+        </div>
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVWtB-05IVvSPWRHO5GaFo4qrOEyWfuvIcYc9crdKHdQ&s=10">
+        </div>
+        <div class="main">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHlwY2NkcGR5cDc4bGtwMHVqeDJ4aXlxanNlMzh3NGdmcmU5M2hnNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/vNTIkYpoAUb22FhsVr/giphy.webp">
+        </div>
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWI_PPMsfyKvGmH50APp8jYk7lH7ADPcYbeltIxnI1A&s=10">
+        </div>
+    </div>
+    <div id="last">
+        <a href="http://127.0.0.1:5500/hi/in.html"><button>Click Here</button></a>
+    </div>
+</body>
+</html>
